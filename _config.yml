@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: modern-reality
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: zava8.github.io
 language: en
 timezone: ''
 
@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/modern-reality/modern-reality.github.io
+  branch: gh-pages
